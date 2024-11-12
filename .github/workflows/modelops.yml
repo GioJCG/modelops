@@ -72,7 +72,7 @@ jobs:
         token: ${{secrets.OKTETO_TOKEN }}
 
  #   - name: Deploy
- #     uses: okteto/pipeline@2.7.0
+ #     uses: okteto/pipeline@2.7.0    
  #     with:
  #        name: ${{github.event.client_payload.MODEL_NAME}}
  #        timeout: 10m
