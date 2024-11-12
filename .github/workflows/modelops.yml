@@ -8,7 +8,7 @@ on:
   repository_dispatch:
     types: [predict]  
 
-jobs:
+jobs: 
 
   prediction:
     runs-on: ubuntu-latest
